@@ -1,0 +1,57 @@
+img{
+    width: 450px;
+    height: 300px;
+}
+.grid{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p {
+    opacity:1
+}
+.item:hover img{
+    opacity:0.33;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+.header{
+    background-color: rgb(255, 182, 192);
+    display:flex;
+    justify-content: space-between;
+}
+.followUs{
+    background-color: rgb(255, 182, 192);
+    display:flex;
+    justify-content: space-between;
+}
+.header * {
+border:solid;
+border-color: rgb(255, 255, 255);
+}
+.header h1{
+    background-color: rgb(255, 182, 192);
+}
+
+.menu {
+    margin-right: 0px;
+}
+.menu a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.item{
+    border-radius: 20px;
+    font-family: fantasy;
+}
